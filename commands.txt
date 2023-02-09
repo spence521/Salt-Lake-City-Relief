@@ -1,0 +1,8 @@
+git clone <url>
+
+git add .
+git commit -m "Message"
+git push origin master
+git rm -r --cached .\Ignore\
+git pull origin master
+git log

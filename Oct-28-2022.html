@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <title>October 28, 2022 Basketball Highlights</title>
+        <link rel="stylesheet" type="text/css" href="canvas.css">   
+    </head>
+    <body>
+        <main>
+            <section class="glass">
+                <WrapPanel Orientation="Vertical">   
+                    <WrapPanel Orientation="Vertical" id="Home">
+                        <div>
+                            <h1>October 28, 2022 Basketball Highlights</h1>
+                        </div>   
+                        <div>
+                            <div>
+                                <a href="javascript:history.back()" onclick="CallDisplayNews();" style="padding-left: 30px;">
+                                    <img src="/img/arrow-left.png" />
+                                </a> 
+                            </div> 
+                            <div>
+                                <video id="vid-1" style="width:70%; height:70%;" controls>
+                                    <source src="/img/ballin.mp4" type="video/mp4">
+                                  Your browser does not support the video tag.
+                                </video>
+                            </div>                                                          
+                        </div>                                
+                    </WrapPanel> 
+                </WrapPanel>
+            </section>            
+        </main>     
+        <script type="text/javascript" src=""></script>             
+    </body>
+</html>
