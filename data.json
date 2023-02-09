@@ -1,5 +1,0 @@
-{
-    "foos" : [{
-        "foo": {"transactionID":"0", "loginID":"0", "firstName":"John", "lastName":"Doe", "cc":"1234567812345678", "expDate":"12/22", "cvv":"123"}
-    }]
-}

@@ -1,6 +1,0 @@
-python -m http.server
-
-x Home x Donate x Purchase x About x
-
-style="width:25%; margin-left:20%;"
-ctrl + F5 - update code in browser

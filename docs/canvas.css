@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #92b0ce, #4e6c8a); /* #4e6c8a, #33475b);*/
+    /*background-image: url("IMG_3297 - Transparent.png");*/
+    /*background-image: url("IMG_3297.JPG");*/
+    background: 
+        url(/img/IMG_3297-Transparent.png) top,  /* On top,    like z-index: 4; */
+        url(/img/IMG_3297.JPG);                                     /*like z-index: 3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.glass {
+    background: aliceblue;
+    min-height: 80vh;
+    width: 65%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,255,255, 0.3));
+    border-style: groove;
+    border-radius: 2rem;
+    backdrop-filter: blur(0.2rem);
+    z-index: 0;
+}
+
+.glass2 {
+    background: aliceblue;
+    min-height: 80vh;
+    width: 65%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,255,255, 0.3));
+    border-style: groove;
+    border-radius: 0.1rem;
+    backdrop-filter: blur(0.2rem);
+    z-index: 0;
+}
+
+#Amount {
+    margin-top: 1rem;
+}
+
+#trans {
+    z-index: 3;
+}
+p {
+    padding: 0px;
+    margin: 0cm;
+    height: 0px;
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    z-index: 4;
+}
+
+#div-1 {
+    justify-content: left;
+}
+#pic-1 {
+    padding: 30px;
+}
