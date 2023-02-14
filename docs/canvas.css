@@ -10,8 +10,8 @@ main {
     /*background-image: url("IMG_3297 - Transparent.png");*/
     /*background-image: url("IMG_3297.JPG");*/
     background: 
-        url(/img/IMG_3297-Transparent.png) top,  /* On top,    like z-index: 4; */
-        url(/img/IMG_3297.JPG);                                     /*like z-index: 3; */
+        url(https://github.com/spence521/Salt-Lake-City-Relief/raw/main/docs/img/IMG_3297-Transparent.png) top,  /* On top,    like z-index: 4; */
+        url(https://github.com/spence521/Salt-Lake-City-Relief/raw/main/docs/img/IMG_3297.JPG);                                     /*like z-index: 3; */
     display: flex;
     align-items: center;
     justify-content: center;
