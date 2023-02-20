@@ -10,8 +10,8 @@ function Validate(value) {
 
 
 function Submit(){
-    /*const spawner = require('child_process').spawn;
-    console.log('Data sent to python script', data_to_pass_in);
+    const spawner = require('child_process').spawn;
+    /*console.log('Data sent to python script', data_to_pass_in);
     const python_process = spawner('python', [JSON.stringify(data_to_pass_in)]);
     python_process.stdout.on('data', (data) => {
         console.log('Data recieved from python script:', data.toString());
@@ -36,9 +36,10 @@ function Submit(){
     }*/
 
     console.log('Data sent to python script:', Credit_Card)
-    const python_process = spawner('python', ['./app.py', JSON.stringify(Credit_Card)]);
+    const python_process = spawner('python', ['./app.py', JSON.stringify(Credit_Card)]); //  ../py/app.py  or ./py/app.py ?
     python_process.stdout.on('data', (data) => {
         console.log('Data recieved from python script:', data.toString());
+        window.alert(data.toString());
     });
 }
 //inline, home, get, style, display

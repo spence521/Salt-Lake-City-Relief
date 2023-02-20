@@ -1,3 +1,4 @@
+import tkinter
 import models
 import paymentprocessingj
 import sys
@@ -23,6 +24,7 @@ response = paymentprocessingj.charge_credit_card(card)
 
 print(response.is_success)
 print(response.messages)
+tkinter.messagebox.showerror(title=None, message=response.messages)
 
 output = input
 output['data_returned'] = [response.is_success, response.messages]

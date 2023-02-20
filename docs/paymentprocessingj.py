@@ -25,7 +25,7 @@ def charge_credit_card(card):
 
     request = apicontractsv1.createTransactionRequest()
     request.merchantAuthentication = merchant_auth
-    request.refId = "MerchantID-0001"  # I get this once I connect my Chase Paymentech account
+    request.refId = "MerchantID-0001"  # I get this once I connect my "Chase Paymentech account"
     request.transactionRequest = transaction_request
 
     transaction_controller = createTransactionController(request)
