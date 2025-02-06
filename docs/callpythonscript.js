@@ -123,3 +123,4 @@ function SubmitArticle()
 {
 
 }
+DisplayAbout();
